@@ -1,0 +1,169 @@
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    font-family: arial;
+}
+#header{
+    width: 100%;
+    min-height: 100px;
+    background:gainsboro;
+}
+#logo{
+    width: 40%;
+    float: left;
+}
+#logo img{
+    margin: 20px 20px;
+    width: 50px;
+    float: left;
+}
+#logo span{
+    margin: 30px 5px;
+    display: block;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+#banner{
+    width: 60%;
+    float: left;
+}
+#banner p{
+    color: gray;
+}
+.parent{
+    position: relative;
+    margin-top: 20px;
+}
+.parent input[type=submit]{
+    width: 500px;
+    padding: 10px 5px;
+    text-align: right;
+    border-radius: 10px;
+    background: orange;
+    border: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.child-1{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    width: 348px;
+}
+.child-2 {
+    position: absolute;
+    top: 10px;
+    left: 340px;
+    color: gray;
+}
+#header-link{
+    width: 100%;
+    min-height: 50px;
+    background: #c7cac2;
+    margin-top: -2px;
+}
+#header-link ul{
+    list-style-type: none;
+    margin-top: -15px;
+}
+#header-link ul>li{
+    float: left;
+    padding: 15px 10px;
+}
+#header-link .active{
+    background: orange;
+    margin-top: -3px;
+    border-radius: 5px;
+}
+#header-link .active a{
+    color: #ffffff;
+}
+#header-link ul>li:hover{
+    background: orange;
+    margin-top: -3px;
+    border-radius: 5px;
+}
+#header-link ul>li a:hover{
+    color: #ffffff;
+}
+#header-link ul>li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#sidebar-left{
+    width: 19%;
+    height: 628px;
+    float: left;
+    background: gainsboro;
+    border: 1px solid gray;
+}
+#sidebar-left h3{
+    text-align: center;
+    background: red;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: -3px;
+}
+#sidebar-left ul{
+    list-style-type: none;
+}
+#sidebar-left ul li{
+    padding: 10px 0;
+}
+#sidebar-left ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+#main{
+    width: 80.7%;
+    min-height:629.75px;
+    float: left;
+    position: relative;
+    background: #eee;
+    margin-top: -2px;
+}
+.child-left{
+    position: absolute;
+    left: 5px;
+    top: 280px;
+    margin-right: 10px;
+    height: 50px;
+}
+.child-right{
+    position: absolute;
+    right: 10px;
+    top: 280px;
+    height: 50px;
+}
+#main .title{
+    width: 130px;
+    height: 230px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+#main .title img{
+    width: 100px;
+    height: 150px;
+}
+#main .title a{
+    text-decoration: none;
+    color: orange;
+}
+#footer{
+    width: 100%;
+    min-height: 50px;
+    clear: both;
+    text-align: center;
+    background: #c7cac2;
+}
+#footer p{
+    padding-top: 20px;
+}
